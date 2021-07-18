@@ -59,19 +59,19 @@ body{
     position:absolute;
     top:0;
     left:0;
-    transition: 1s;
 }
 .box:hover .card.front{
+    transition: 1s;
     transform: rotateY(180deg);
 }
 .box .card.back{
     position:absolute;
     top:0;
     left:0;
-    transition: 1s;
     transform: rotateY(180deg);
 }
 .box:hover .card.back{
+    transition: 1s;
     transform:rotateY(360deg);
 }
 .box .front h2{
