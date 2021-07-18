@@ -59,6 +59,7 @@ body{
     position:absolute;
     top:0;
     left:0;
+    transition:1s;
 }
 .box:hover .card.front{
     transition: 1s;
@@ -69,6 +70,7 @@ body{
     top:0;
     left:0;
     transform: rotateY(180deg);
+    transition:1s;
 }
 .box:hover .card.back{
     transition: 1s;
