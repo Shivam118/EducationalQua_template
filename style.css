@@ -53,7 +53,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    backface-visibility:;
+    backface-visibility:hidden;
 }
 .box .card.front{
     position:absolute;
